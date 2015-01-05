@@ -1,0 +1,25 @@
+<COMMAND>
+/bin/sh
+-c
+cd ~/Documents; cp /usr/share/dict/american-english ./testDic1; grep 'phant' testDic1 > testDic1-tag-phant.txt; cat testDic1-tag-phant.txt; 
+<END>
+<COMMAND>
+/bin/sh
+-c
+cd ~/Documents; cp /usr/share/dict/american-english ./testDic2; grep 'zun' testDic1 > testDic2-tag-zun.txt; cat testDic2-tag-zun.txt; 
+<END>
+<COMMAND>
+/bin/sh
+-c
+cd ~/Documents; cp /usr/share/dict/american-english ./testDic3; grep 'veri' testDic1 > testDic3-tag-veri.txt; cat testDic3-tag-veri.txt; 
+<END>
+<COMMAND>
+/bin/sh
+-c
+cd ~/Documents; cp /usr/share/dict/american-english ./testDic4; grep 'func' testDic1 > testDic4-tag-func.txt; cat testDic4-tag-func.txt; 
+<END>
+<COMMAND>
+/bin/sh
+-c
+cd ~/Documents; cp /usr/share/dict/american-english ./testDic5; grep 'wolv' testDic1 > testDic5-tag-wolv.txt; cat testDic5-tag-wolv.txt; 
+<END>
